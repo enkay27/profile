@@ -1,0 +1,97 @@
+body {
+  background-color: #F4F4F2;
+}
+
+h1, h2, h3 {
+  color: rgb(40, 40, 40);
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  color: #686D76;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  color: #4AD8BD;
+}
+
+button a {
+  text-decoration: none;
+}
+
+a {
+  color: #89AA8A;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.main_text {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.proud {
+  text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.footer {
+  text-align: center;
+  border: 1px solid lightgrey;
+  background-color: rgb(200,200,180);
+}
+
+.social_media {
+  font-size: 50px;
+}
+
+.social_media li {
+  display: inline;
+  padding: 80px;
+}
+
+.passion_projects {
+  display: inline-block;
+  padding: 80px;
+}
+
+.image_ju {
+  height: 239px;
+  width: 319px;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  width: 50%;
+  padding: 10px;
+}
+
+.image1  {
+border-radius: 50%;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .header .main_text .footer .image1 {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .header .main_text .footer .image1  {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .header .main_text .footer .image1 {
+    width: 300px;
+  }
+}
